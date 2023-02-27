@@ -74,7 +74,7 @@
 }
 
 @media screen and (max-width: 768px) {
-  aside:nth-child(even) .cardPatriota {
+  aside:nth-child(odd) .cardPatriota {
     font-family: "Roboto", sans-serif;
     background: rgb(250, 247, 6);
     background: radial-gradient(
@@ -85,7 +85,7 @@
     );
   }
 }
-aside:nth-child(odd) .cardPatriota {
+aside:nth-child(even) .cardPatriota {
   font-family: "Roboto", sans-serif;
   background: rgb(250, 247, 6);
   background: radial-gradient(
