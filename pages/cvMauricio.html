@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css" />
+  <script src="https://kit.fontawesome.com/d592990af5.js" crossorigin="anonymous"></script>
+  <link id="linkEstilo" rel="stylesheet" href="../css/style1-CV.css" />
+  <link rel="icon" href="../img/favicon.ico" />
+  <title>Patriotas de Tucumán</title>
+</head>
+
+<body>
+  <header>
+    <nav class="navbar navbar-expand-lg bg-dark navbar-dark">
+      <div class="container">
+      <div class="containerImgLogo">
+          <a href="../index.html"><img class="img-fluid" src="../img/casa.png" alt="logo"></a>
+        </div>
+         <a class="navbar-brand mx-2" href="../index.html">Patriotas de Tucumán</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li  class="nav-item">
+              <p id="contenidoLogin" class="nav-link text-white"></p> 
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="../index.html">Inicio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="cvMauricio.html">Sobre mí</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="cvMauricioEng.html">About me</a>
+            </li>
+              </li>
+                <li class="nav-item" id="botonLoginLogout">              
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      
+    </nav>
+  </header>
+
+  <main class="container-fluid">
+    <article class="row">
+      <h1 id="nombre" class="text-center fondoA pt-5 pb-5"></h1>
+      <section class=" col-12 col-md-4 col-lg-4 col-print-4 fondoD">        
+         <div class="text-center">
+          <img id="imagen" class="imagen border border-5 rounded border-light">
+         </div>
+          <h5 class="fondoC p-1"><i class="fa-solid fa-user-tie icono fs-4 mx-2"></i>Profesión</h5>
+          <p class="fs-6" id="profesion"></p>
+          <h5 class="fondoC p-1"><i class="fa-solid fa-flag icono fs-4 mx-2"></i> Nacionalidad </h5>
+          <p class="fs-6" id="nacionalidad"></p>
+          <h5 class="fondoC p-1 "><i class="fa-solid fa-baby icono fs-4 mx-2"></i>Nacimiento</h5>
+          <p class="fs-6" id="nacimiento"></p>
+          <h5 class="fondoC p-1 "><i class="fa-solid fa-calendar-days icono fs-4 mx-2"></i>Edad</h5>
+          <p class="fs-6" id="edad"></p>
+          <h5 class="fondoC p-1"><i class="fa-solid fa-envelope icono fs-4 mx-2"></i>Mail</h5> 
+          <p class="fs-6" id="mail"></p>                  
+      </section>
+      <section class="col-12 col-md-8 col-lg-8 col-print-8 p-2">
+        <aside>
+          <h5 class="fondoB p-1"><i class="fa-solid fa-file  icono fs-4 mx-2"></i>Resumen</h5>
+          <p id="resumen">
+          </p>
+        </aside>
+        <aside>
+           <h5 class="fondoB p-1"><i class="fa-solid fa-award  icono fs-4 mx-2"></i>Habilidades</h5>
+          <ul id="habilidades">
+          </ul>
+        </aside>
+        <aside class="">
+          <h5 class="fondoB p-1"><i class="fa-solid fa-briefcase  icono fs-4 mx-2"></i>Experiencia laboral</h5>
+          <ul id="experiencia">
+          </ul>
+        </aside>
+        <aside>
+          <h5 class="fondoB p-1"><i class="fa-solid fa-user-graduate  icono fs-4 mx-2"></i>Educación</h5>
+          <ul id="educacion">
+          </ul>
+        </aside>
+        <aside>
+          <h5 class="fondoB p-1"><i class="fa-solid fa-photo-film  icono fs-4 mx-2"></i>Aficiones</h5>
+          <p id="aficiones">
+          </p>
+        </aside>
+        <aside>
+          <h5 class="fondoB p-1"><i class="fa-solid fa-thumbs-up  icono fs-4 mx-2"></i>Encuéntrame en las redes</h5>
+          <div>
+            <a id="linkedin"></a>
+          </div>
+        </aside>
+        <aside id="botonera"class="text-center">
+          <div>
+            <button id="botonEstilo1" class="btn btn-success mx-1" onclick="estilo1()">Estilo 1</button>
+            <button id="botonEstilo2" class="btn btn-success mx-1" onclick="estilo2()">Estilo 2</button>
+            <button id="botonEstilo3" class="btn btn-success mx-1" onclick="estilo3()">Estilo 3</button>
+          </div>
+          <div>
+            <button id="botonGuardarCV" class="btn btn-info my-2" onclick="window.print();return false;">Descargar CV</button>
+          </div>
+        </aside>
+      </section>
+    </article>`
+            <!--    Ventana Modal -->
+    <div class="modal fade" id="modalLogin" tabindex="-1" aria-labelledby="modalLoginLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header text-center">
+            <h4 class="modal-title" id="modalLoginLabel">¡Bienvenido Visitante!</h4>
+            <button type="button" class="btn btn-close btn-danger" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body text-center">
+            <p id="parrafoFraseAleatoria"> </p>
+            <h5>¡Ingresa tu nombre!</h5>
+            <form >
+                <input type="text" id="loginName" class="form-control" placeholder="Hasta 15 letras" minlength="1" maxlength="15" required>
+              <div id="validez"></div>
+              <br>
+            </form>
+            <button class="btn btn-success" onclick="grabarLocalStorage()" data-bs-dismiss="modal">Enviar</button>
+         </div>
+        </div>
+      </div>
+    </div>
+  </main>
+  <footer class="bg-dark text-light py-4 text-center container-fluid">
+    <div class="align-content-center row">
+      <a class="col-12 col-md-4 col-lg-4" href="cvMauricio.html">&copy; Mauricio Javier Alonso </a>
+      <p class="col-12 col-md-4 col-lg-4"> Todos los derechos reservados  </p>
+      <div class="col-12 col-md-4 col-lg-4">
+        <img class="containerImgLogoFooter" src="../img/argentinaPrograma.png">
+      </div>
+    </div>    
+  </footer>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+    crossorigin="anonymous"></script>
+    <script src="../js/login.js"></script>
+  <script > cargarLocalStorage()</script>
+  <script src="../js/datos.js"></script>
+  <script src="../js/cargarDatosEnCVMauricio.js"></script>
+  <script src="../js/mecanicaEstiloCV.js"></script>
+  <script>fraseAzar()</script>
+</body>
+
+</html>

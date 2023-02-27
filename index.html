@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css" />
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+  <link rel="stylesheet" href="css/style-portada.css" />
+  <link rel="stylesheet" href="css/spinner.css" />
+  <link rel="icon" href="img/favicon.ico" />
+  <title>Patriotas de Tucumán</title>
+</head>
+
+<body>
+  <header>
+    <nav class="navbar navbar-expand-lg bg-dark navbar-dark" >
+      <div class="container">
+        <div class="containerImgLogo">
+          <a href="./index.html"><img class="img-fluid" src="img/casa.png" alt="logo"></a>
+        </div>
+         <a class="navbar-brand mx-2" href="index.html">Patriotas de Tucumán</a>
+       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="pages/cvMauricio.html">Sobre mí</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="pages/cvMauricioEng.html">About me</a>
+            </li>
+            <li class="nav-item" id="botonLoginLogout">              
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <main>
+    <article class="container-fluid tituloPrincipal my-3 border border-2 border-dark">
+      <h1 class=" text-center p-4 "> PATRIOTAS DE TUCUMÁN</h1>
+    </article>
+    <article class="row container-fluid my-2">
+      <section id="seguidores" class=" p-3 my-1 col-12 col-md-6 col-lg-6 rounded">
+        <h3 id="contenidoLogin" class="text-info text-center"> ¡ Bienvenido visitante !</h3>
+        <p class="text-light text-center"> Bienvenido al sitio que homenajea a los héroes que declararon la independiencia Argentina.</p>
+        <h5 class="text-success text-center"> Nos siguen en las redes </h5>
+          <div id="seguidoresParrafoContenedor">            
+          </div>
+       </section> 
+      <section id="seccionCarousel" class=" p-2 my-1 col-12 col-md-6 col-lg-6">
+        <div id="carouselPatriotas" class="carousel slide carousel-fade">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <div class="card cardCarousel mb-3">
+                <div class="row">
+                  <div class="col-4">
+                    <img src="img/acta.jpg" class="img-fluid rounded-start" alt="Acta" />
+                  </div>
+                  <div class="col-8">
+                    <div class="card-body">
+                      <h5 class="card-title">EL ACTA</h5>
+                      <p class="card-text">
+                        acta de la Declaración de Independencia, tomada el martes 9 de julio de
+                        1816 por el Congreso de Tucumán.
+                      </p>
+                      <div class="text-center">
+                        <a href="archivoDescargable/actaIndependenciaArgentina.pdf" download="Acta-Independencia-Argentina.pdf"
+                          class="btn btn-success">Descarga el acta</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="card cardCarousel mb-3">
+                <div class="row">
+                  <div class="col-8">
+                    <div class="card-body">
+                      <h5 class="card-title">Museo Nacional de la Independencia</h5>
+                      <p class="card-text">
+                        En la Casa Histórica de Tucumán funciona el Museo Nacional de la Independencia.
+                      </p>
+                      <div class="text-center">
+                        <a href="https://casadelaindependencia.cultura.gob.ar/" class="btn btn-success">Ir al Museo</a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-4">
+                    <img src="img/casaTucuman.jpg" class="img-fluid rounded-start" alt="Museo" />
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="card cardCarousel mb-3">
+                <div class="row">
+                  <div class="col-4">
+                    <img src="img/FranciscaBazan.jpg" class="img-fluid rounded-start" alt="..." />
+                  </div>
+                  <div class="col-8">
+                    <div class="card-body">
+                      <h5 class="card-title">Francisca Bazan de Laguna</h5>
+                      <p class="card-text">
+                        Francisca Bazán de Laguna es conocida por ceder su casa como sede del Congreso de Tucumán.
+                      </p>
+                      <div class="text-center">
+                        <a href="https://dbe.rah.es/biografias/66881/francisca-bazan-de-laguna/"
+                          class="btn btn-success">Conoce su vida</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div id="aleatorio" class="carousel-item">
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselPatriotas"
+              data-bs-slide="prev">
+              <span class="carousel-control-prev-icon bg-primary" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselPatriotas"
+              data-bs-slide="next">
+              <span class="carousel-control-next-icon bg-primary"" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+      </section>
+    </article>
+        <article class="container-fluid tituloPrincipal my-3 border border-2 border-dark">
+      <h3 class=" text-center p-4 "> Explora el CV de cada Patriota</h3>
+    </article>
+    <article id="portada" class="container-fluid row my-2"></article>
+
+
+    <!--    Ventana Modal Para Login -->
+    <div class="modal fade" id="modalLogin" tabindex="-1" aria-labelledby="modalLoginLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header text-center">
+            <h4 class="modal-title" id="modalLoginLabel">¡Bienvenido Visitante!</h4>
+            <button type="button" class="btn btn-close btn-danger" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body text-center">
+            <p id="parrafoFraseAleatoria"> </p>
+            <h5>¡Ingresa tu nombre!</h5>
+            <form >
+               <input type="text" id="loginName" class="form-control" placeholder="Hasta 15 letras" minlength="1" maxlength="15" required>
+              <div id="validez"></div>
+              <br>
+            </form>
+            <button class="btn btn-success" onclick="grabarLocalStorage()" data-bs-dismiss="modal">Enviar</button>
+         </div>
+        </div>
+      </div>
+    </div>
+
+  </main>
+  <footer class="bg-dark text-light py-4 text-center container-fluid">
+    <div class="align-content-center row">
+      <a class="col-12 col-md-4 col-lg-4" href="pages/cvMauricio.html">&copy; Mauricio Javier Alonso </a>
+      <p class="col-12 col-md-4 col-lg-4"> Todos los derechos reservados  </p>
+      <div class="col-12 col-md-4 col-lg-4">
+        <img class="containerImgLogoFooter" src="img/argentinaPrograma.png">
+      </div>
+    </div>    
+  </footer>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+    crossorigin="anonymous"></script>  
+  <script src="js/login.js"></script>  
+  <script > cargarLocalStorage()</script>
+  <script src="js/datos.js"></script>
+  <script src="js/seguidoresAleatorio.js"></script>
+  <script src="js/patriotaAleatorio.js"></script>
+  <script> patriotaAleatorio();</script>
+  <script src="js/index.js"></script>
+  <script>fraseAzar()</script>
+ 
+</body>
+
+</html>
+

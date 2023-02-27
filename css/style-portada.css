@@ -1,0 +1,129 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap");
+
+.containerImgLogo {
+  width: 60px;
+  height: 60px;
+}
+
+#contenedorImagenPatriotaAzar {
+  width: 20px;
+  height: 20px;
+}
+
+.tituloPrincipal {
+  background: rgb(250, 247, 6);
+  background: radial-gradient(
+    circle,
+    rgba(250, 247, 6, 1) 0%,
+    rgba(255, 255, 255, 1) 50%,
+    rgba(101, 211, 246, 1) 100%
+  );
+}
+
+#seguidores {
+  background: rgb(185, 165, 149);
+  background: radial-gradient(
+    circle,
+    rgba(185, 165, 149, 1) 0%,
+    rgba(152, 124, 103, 1) 50%,
+    rgba(76, 32, 14, 1) 100%
+  );
+}
+
+#seguidoresParrafoContenedor {
+  color: white;
+}
+
+#seguidorNombre,
+#seguidorApellido,
+#seguidorCiudad,
+#seguidorEstado,
+#seguidorPais {
+  font-weight: bold;
+}
+
+#seguidorImagen {
+  width: 75px;
+  height: 75px;
+}
+
+.cardCarousel {
+  background: rgb(207, 160, 75);
+  background: radial-gradient(
+    circle,
+    rgba(207, 160, 75, 1) 0%,
+    rgba(188, 108, 32, 1) 50%
+  );
+  color: white;
+}
+
+.modal-content {
+  font-family: "Roboto", sans-serif;
+  background: rgb(250, 247, 6);
+  background: radial-gradient(
+    circle,
+    rgba(250, 247, 6, 1) 0%,
+    rgba(255, 255, 255, 1) 50%,
+    rgba(101, 211, 246, 1) 100%
+  );
+}
+
+.containerImgLogoFooter {
+  width: auto;
+  height: 50px;
+}
+
+@media screen and (max-width: 768px) {
+  aside:nth-child(even) .cardPatriota {
+    font-family: "Roboto", sans-serif;
+    background: rgb(250, 247, 6);
+    background: radial-gradient(
+      circle,
+      rgba(250, 247, 6, 1) 0%,
+      rgba(255, 255, 255, 1) 50%,
+      rgba(101, 211, 246, 1) 100%
+    );
+  }
+}
+aside:nth-child(odd) .cardPatriota {
+  font-family: "Roboto", sans-serif;
+  background: rgb(250, 247, 6);
+  background: radial-gradient(
+    circle,
+    rgba(250, 247, 6, 1) 48%,
+    rgba(255, 255, 255, 1) 64%
+  );
+}
+
+@media screen and (min-width: 768px) {
+  .tituloPagina {
+    font-size: 30px;
+  }
+
+  aside:nth-child(even) {
+    background-color: white;
+  }
+
+  .cardPatriota {
+    filter: grayscale(100%);
+    -webkit-filter: grayscale(100%);
+  }
+
+  .cardPatriota:hover {
+    font-family: "Roboto", sans-serif;
+    background: rgb(250, 247, 6);
+    background: radial-gradient(
+      circle,
+      rgba(250, 247, 6, 1) 0%,
+      rgba(255, 255, 255, 1) 50%,
+      rgba(101, 211, 246, 1) 100%
+    );
+    transition: all 0.4s ease;
+    -webkit-transition: all 0.4s ease;
+    filter: grayscale(0%);
+    -webkit-filter: grayscale(0%);
+    box-shadow: -10px 20px 15px gray;
+    filter: none;
+    transition: 1s ease;
+  }
+}

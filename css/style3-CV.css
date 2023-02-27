@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Shantell+Sans:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+
+main{
+  font-family: 'Shantell Sans', cursive;
+}
+
+.containerImgLogo {
+  width: 60px;
+  height: 60px;
+}
+
+#contenedorImagenPatriotaAzar{
+    width: 20px;
+    height: 20px;
+}
+
+
+.modal-content{
+    
+font-family: 'Roboto', sans-serif;
+background: rgb(250,247,6);
+background: radial-gradient(circle, rgba(250,247,6,1) 0%, rgba(255,255,255,1) 50%, rgba(101,211,246,1) 100%);
+    
+}
+
+#habilidades {
+  list-style-type: none;
+}
+.imagen {
+  width: 75%;
+}
+#nombre {
+  color: white;
+}
+.icono {
+  color: #7d5a36;
+}
+
+.fondoA {
+  margin: 0;
+  background-color: #b89d24;
+}
+
+.fondoB {
+  background-color: #eccb59;
+}
+.fondoC {
+  background-color: #eccb59;
+}
+
+#botonera{
+font-family: 'Roboto', sans-serif;
+}
+
+.containerImgLogoFooter {
+  width: auto;
+  height: 50px;
+}
+
+@media screen and (min-width: 768px) {
+  .tituloPagina{
+    font-size: 30px;
+}
+
+  #imagen {
+    position: relative;
+    bottom: 50px;
+  }
+
+  .fondoC {
+    background-color: white;
+  }
+
+  .fondoD {
+    background-color: #eccb59;
+  }
+}
+
+@media print {
+  body {
+    -webkit-print-color-adjust: exact;
+    print-color-adjust: exact;
+  }
+
+  header {
+    display: none;
+  }
+
+  footer{
+    display: none;
+  }
+  .col-print-4 {
+    width: 40%;
+    float: left;
+  }
+
+  .col-print-8 {
+    width: 60%;
+    float: right;
+  }
+
+#botonera{
+    display: none;
+}
+}
+
