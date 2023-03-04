@@ -22,7 +22,7 @@ function crearColumna(patriota) {
 function detallePatriota(codigo) {
   console.log(codigo);
   console.log(window.location.origin + "./pages/cv.html?codigo=" + codigo);
-  window.location.href = "./pages/cv.html?codigo=" + codigo;
+  window.location.href = window.location.pathname + "./pages/cv.html?codigo=" + codigo;
 }
 
 
