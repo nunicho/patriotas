@@ -27,7 +27,7 @@ const datos = [
     ],
     aficiones:
       "Política, militancia en el Partido Unitario y estudio del derecho.",
-    imagen: "img/LapridaNarciso.jpg",
+    imagen: "../img/LapridaNarciso.jpg",
     youtube: "https://www.youtube.com/watch?v=9An9Ez-FpfM",
     wikipedia: "https://es.wikipedia.org/wiki/Francisco_Narciso_de_Laprida",
   },
