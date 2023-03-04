@@ -28,7 +28,13 @@ document.getElementById("seguidoresParrafoContenedor").innerHTML = spinner;
             
           </div> `;
   } catch (error) {
-    alert("No se pudo cargar la API");
+
+    Swal.fire({
+      icon: "error",
+      title: "Oops...",
+      text: "Hubo un error al cargar los seguidores. Prueba de nuevo!",
+    });
+    
   }
 };
 
