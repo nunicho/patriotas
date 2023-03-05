@@ -27,7 +27,7 @@ const datos = [
     ],
     aficiones:
       "Política, militancia en el Partido Unitario y estudio del derecho.",
-    imagen: "../img/LapridaNarciso.jpg",
+    imagen: "./img/LapridaNarciso.jpg",
     youtube: "https://www.youtube.com/watch?v=9An9Ez-FpfM",
     wikipedia: "https://es.wikipedia.org/wiki/Francisco_Narciso_de_Laprida",
   },
@@ -59,7 +59,7 @@ const datos = [
     ],
     aficiones:
       "Gran debatiente, honesto y defensor de los derechos de los más necesitados.",
-    imagen: "../img/BoedoMariano.jpg",
+    imagen: "./img/BoedoMariano.jpg",
     youtube: "https://www.youtube.com/watch?v=8qqCBYKqb04",
     wikipedia: "https://es.wikipedia.org/wiki/Mariano_Boedo",
   },
@@ -91,7 +91,7 @@ const datos = [
     ],
     aficiones:
       "Revolucionario, conocimientos de la lengua quechua, afinidad a los dogmas de una monarquía constitucional.",
-    imagen: "../img/SerranoJoseMariano.jpg",
+    imagen: "./img/SerranoJoseMariano.jpg",
     wikipedia:
       "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c7/Jos%C3%A9_Mariano_Serrano.jpg/220px-Jos%C3%A9_Mariano_Serrano.jpg",
   },
@@ -128,7 +128,7 @@ const datos = [
     ],
     aficiones:
       "Fundador de San José de Flores; partidario del Carlotismo y la monarquía Constitucional; afín a la Filosofía.",
-    imagen: "../img/PasoJuanJose.jpg",
+    imagen: "./img/PasoJuanJose.jpg",
     youtube: "https://www.youtube.com/watch?v=GUhMm-Io6cw",
     wikipedia: "https://es.wikipedia.org/wiki/Juan_Jos%C3%A9_Paso",
   },
@@ -164,7 +164,7 @@ const datos = [
     ],
     aficiones:
       "Promotor de la educación universitaria, activo miembro de la Logia Lautaro.",
-    imagen: "../img/SaenzAntonio.jpg",
+    imagen: "./img/SaenzAntonio.jpg",
     youtube: "https://www.youtube.com/watch?v=yUCULiVbBqs",
     wikipedia: "https://es.wikipedia.org/wiki/Antonio_S%C3%A1enz",
   },
@@ -197,7 +197,7 @@ const datos = [
     ],
     aficiones:
       "Perteneciente a la Logia Lautaro, escritor de artículos periodísticos. Fiel defensor del unitarismo.",
-    imagen: "../img/DarregueiraJose.jpg",
+    imagen: "./img/DarregueiraJose.jpg",
     youtube: "https://www.youtube.com/watch?v=i6nxZTXt1Dc",
     wikipedia: "https://es.wikipedia.org/wiki/Jos%C3%A9_Darregueira",
   },
@@ -231,7 +231,7 @@ const datos = [
     ],
     aficiones:
       "Poeta y escritor de Odas, autor del primer Himno Nacional, defensor de la iglesia católica contra el regalismo.",
-    imagen: "../img/RodriguezCayetano.jpg",
+    imagen: "./img/RodriguezCayetano.jpg",
     youtube: "https://www.youtube.com/watch?v=aPqjv9Ou-Bs&t=26s",
     wikipedia:
       "https://es.wikipedia.org/wiki/Cayetano_Jos%C3%A9_Rodr%C3%ADguez",
@@ -265,7 +265,7 @@ const datos = [
     ],
     aficiones:
       " Se destacó como orador y poeta. Escribió un largo romance titulado Carta de Celio a Armesto, de clara intención política; La Martiniana y la traducción al Poema de la Expedición al Desierto, de 1833-34.",
-    imagen: "../img/MedranoPedro.jpg",
+    imagen: "./img/MedranoPedro.jpg",
     youtube: "https://www.youtube.com/watch?v=6CB92kKNxuk",
     wikipedia: "https://es.wikipedia.org/wiki/Pedro_Medrano",
   },
@@ -303,7 +303,7 @@ const datos = [
       "Real Colegio San Carlos de Buenos Aires.",
     ],
     aficiones: "Oposición total a la reformas religiosas.",
-    imagen: "../img/GasconEstebanA.jpg",
+    imagen: "./img/GasconEstebanA.jpg",
     youtube: "https://www.youtube.com/watch?v=4W_z6zziTYg&t=7s",
     wikipedia: "https://es.wikipedia.org/wiki/Esteban_Agust%C3%ADn_Gasc%C3%B3n",
   },
@@ -335,7 +335,7 @@ const datos = [
       "Estudió en el Real Colegio de San Carlos.",
     ],
     aficiones: "Padre devoto de 15 hijos. De fuertes ideas federales.",
-    imagen: "../img/AnchorenaTomasDe.jpg",
+    imagen: "./img/AnchorenaTomasDe.jpg",
     youtube: "https://www.youtube.com/watch?v=JdOyGuUJFYk&t=12s",
     wikipedia: "https://es.wikipedia.org/wiki/Tom%C3%A1s_de_Anchorena",
   },
@@ -398,7 +398,7 @@ const datos = [
     ],
     aficiones:
       " Participante de la Liga del Norte; impulsó la creación de una nueva Catedral de Salta y el desarrollo de la industria azucarera en Tucumán.",
-    imagen: "../img/ColombresJoseEusebio.jpg",
+    imagen: "./img/ColombresJoseEusebio.jpg",
     youtube: "https://www.youtube.com/watch?v=3iwOUiajlpc",
     wikipedia: "https://es.wikipedia.org/wiki/Jos%C3%A9_Eusebio_Colombres",
   },
@@ -431,7 +431,7 @@ const datos = [
     ],
     aficiones:
       "Defensor del federalismo, opuesto a los Triunviratos y del Directorio. Posteriormente afín al unitarismo.",
-    imagen: "../img/PerezBulnesEduardo.jpg",
+    imagen: "./img/PerezBulnesEduardo.jpg",
     youtube: "https://www.youtube.com/watch?v=aPqjv9Ou-Bs&t=38s",
     wikipedia: "https://es.wikipedia.org/wiki/Eduardo_P%C3%A9rez_Bulnes",
   },
@@ -463,7 +463,7 @@ const datos = [
     ],
     aficiones:
       "De fuertes raíces federales, fue asesor letrado de los gobernadores del último período virreinal.",
-    imagen: "../img/CabreraJoseAntonio.jpg",
+    imagen: "./img/CabreraJoseAntonio.jpg",
     youtube: "https://www.youtube.com/watch?v=aPqjv9Ou-Bs&t=38s",
     wikipedia:
       "https://es.wikipedia.org/wiki/Jos%C3%A9_Antonio_Cabrera_(pol%C3%ADtico)",
@@ -535,7 +535,7 @@ const datos = [
     ],
     aficiones:
       "Apoyó las ideas unitarias; fundó una escuela lancasteriana, brego por el desarrollo de las comunicaciones y las carreteras.",
-    imagen: "../img/SanchesdeBustamanteTeodoro.jpg",
+    imagen: "./img/SanchesdeBustamanteTeodoro.jpg",
     youtube: "https://www.youtube.com/watch?v=iILAui9zTls",
     wikipedia:
       "https://es.wikipedia.org/wiki/Teodoro_S%C3%A1nchez_de_Bustamante",
@@ -566,7 +566,7 @@ const datos = [
     educacion: ["1800 - Recibido de doctor en Teología"],
     aficiones:
       "Férreo defensor del partido unitario; escritor de tratados sobre política e iglesia; partidario de la libertad de vientres; defensor de una constitución monárquica.",
-    imagen: "../img/CastroBarrosPedroIgnacio.jpg",
+    imagen: "./img/CastroBarrosPedroIgnacio.jpg",
     youtube: "https://www.youtube.com/watch?v=GMmKtGwd6sk",
     wikipedia: "https://es.wikipedia.org/wiki/Pedro_Ignacio_de_Castro_Barros",
   },
@@ -597,7 +597,7 @@ const datos = [
     ],
     aficiones:
       "Colaboró con José de San Martín en la preparación de su expedición libertadora, comprometiendo su fortuna personal en el equipamiento del Ejército de los Andes. Defendor de los ideales del partido unitario. Afinidad por la agricultura y la cría de gusanos de seda.",
-    imagen: "../img/GodoyCruzTomas.jpg",
+    imagen: "./img/GodoyCruzTomas.jpg",
     youtube: "https://www.youtube.com/watch?v=rq0RVw5lzt0",
     wikipedia: "https://es.wikipedia.org/wiki/Tom%C3%A1s_Godoy_Cruz",
   },
@@ -627,7 +627,7 @@ const datos = [
     ],
     aficiones:
       "Realizó importantes donaciones para el ejército de los andes. Compartió las ideas del partido federal.",
-    imagen: "../img/MazaJAgustin.jpg",
+    imagen: "./img/MazaJAgustin.jpg",
     youtube: "https://www.youtube.com/watch?v=aPqjv9Ou-Bs&t=138s",
     wikipedia: "https://es.wikipedia.org/wiki/Juan_Agust%C3%ADn_Maza",
   },
@@ -693,7 +693,7 @@ const datos = [
     educacion: ["1789 - Orden de los hermanos Dominicos en Chile. "],
     aficiones:
       "Férreo defensor de la forma republicana de gobierno por su frase 'hay que consultar a los pueblos'. En el Congreso de Tucumán sus palabras fueron 'se dará la batalla a favor de la soberanía del pueblo' y por eso aparece la tesis de la monarquía constitucional o 'Yo el Rey', enfrentada con la de la república o 'Nosotros los pueblos'.",
-    imagen: "../img/SantamariadeOroJusto.jpg",
+    imagen: "./img/SantamariadeOroJusto.jpg",
     youtube: "https://www.youtube.com/watch?v=qMzO-DMvTHQ",
     wikipedia: "https://es.wikipedia.org/wiki/Justo_Santa_Mar%C3%ADa_de_Oro",
   },
@@ -728,7 +728,7 @@ const datos = [
     ],
     aficiones:
       "Hombre generoso y estuvo del lado de los patriotas en 1810, ayudando con dinero cuando había que donar a las fuerzas patrias.",
-    imagen: "../img/UriartePedro.jpg",
+    imagen: "./img/UriartePedro.jpg",
     youtube: "https://www.youtube.com/watch?v=oChsKDutgCs",
     wikipedia: "https://es.wikipedia.org/wiki/Pedro_Francisco_de_Uriarte",
   },
@@ -761,7 +761,7 @@ const datos = [
       "1799 - Ingresó al Colegio de Monserrat, en Córdoba, donde se ordenó de presbítero.",
     ],
     aficiones: "Afín a las ideas unitarias.",
-    imagen: "../img/GalloPedroLeon.jpg",
+    imagen: "./img/GalloPedroLeon.jpg",
     youtube: "https://www.youtube.com/watch?v=4W_z6zziTYg",
     wikipedia: "https://es.wikipedia.org/wiki/Pedro_Le%C3%B3n_D%C3%ADaz_Gallo",
   },
@@ -794,7 +794,7 @@ const datos = [
     ],
     aficiones:
       "Gran orador, fue designado en 1808 para pronunciar la oración fúnebre por los caídos en la defensa de Buenos Aires en la primera invasión inglesa de 1806, entre los que se encontraban numerosos tucumanos. Estaba a favor de la conformación de la Gran República de Tucumán. De extraordinaria cultura, era considerado 'uno de los talentos más distinguidos de la época'.",
-    imagen: "../img/AraozPedroMiguel.jpg",
+    imagen: "./img/AraozPedroMiguel.jpg",
     youtube: "https://www.youtube.com/watch?v=4W_z6zziTYg&t=2s",
     wikipedia: "https://es.wikipedia.org/wiki/Pedro_Miguel_Ar%C3%A1oz",
   },
@@ -827,7 +827,7 @@ const datos = [
        "1784 - Doctor en Teología, Universidad Nacional de Córdoba.",
     ],
     aficiones: "Propugnó una monarquía inca como forma de gobierno.",
-    imagen: "../img/ThamesJoseIgnacio.jpg",
+    imagen: "./img/ThamesJoseIgnacio.jpg",
     youtube: "https://www.youtube.com/watch?v=Wp5yUaBSdIw",
     wikipedia: "https://es.wikipedia.org/wiki/Jos%C3%A9_Ignacio_Thames",
   },
@@ -892,7 +892,7 @@ const datos = [
     ],
     aficiones:
       "Apoyó el proyecto de monarquía a cargo de una familia real inca para las Provincias Unidas del Río de la Plata.",
-    imagen: "../img/SanchezdeLoriaMariano.jpg",
+    imagen: "./img/SanchezdeLoriaMariano.jpg",
     youtube: "https://www.youtube.com/watch?v=UNNogdywjVo&t=54s",
     wikipedia: "https://es.wikipedia.org/wiki/Mariano_S%C3%A1nchez_de_Loria",
   },
@@ -955,7 +955,7 @@ const datos = [
     ],
     educacion: ["1801 - Seminario de Nuestra Señora de Loreto, en Córdoba."],
     aficiones: " Asistió   a las tropas revolucionarias en el Alto Perú.",
-    imagen: "../img/PachecodeMeloJoseAndres.jpg",
+    imagen: "./img/PachecodeMeloJoseAndres.jpg",
     youtube: "https://www.youtube.com/watch?v=4W_z6zziTYg&t=3s",
     wikipedia:
       "https://es.wikipedia.org/wiki/Jos%C3%A9_Andr%C3%A9s_Pacheco_de_Melo",

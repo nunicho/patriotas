@@ -9,7 +9,7 @@ let patriotaBuscado = datos.find((patriota) => {
 let nombre = document.getElementById("nombre");
 nombre.innerHTML = ` ${patriotaBuscado.nombre} `;
 let imagen = document.getElementById("imagen");
-imagen.setAttribute('src', patriotaBuscado.imagen) 
+imagen.setAttribute("src", `.${patriotaBuscado.imagen}`); 
 let profesion = document.getElementById("profesion");
 profesion.innerHTML = `${patriotaBuscado.profesion} `;
 let distrito = document.getElementById("distrito");

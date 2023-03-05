@@ -19,14 +19,6 @@ function crearColumna(patriota) {
     `;
 }
 
-function detallePatriota(codigo) {
-  console.log(codigo);
-  console.log(window.location.href+ "" + codigo);
-  window.location.href = window.location.href+"./pages/cv.html?codigo=" + codigo;
-}
-
-
-
 /*
 datos.map((patriota) => {
   crearColumna(patriota);
