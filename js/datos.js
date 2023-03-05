@@ -368,7 +368,7 @@ const datos = [
     educacion: ["Ordenado Presbítero", "Colegio Montserrat, Córdoba."],
     aficiones:
       "A favor de la institución de la monarquía incaica. Propuso que el monarca de la incipiente Argentina fuese un descendiente de los incas, en la sesión del 12 de julio de 1816.",
-    imagen: "../img/AcevedoManuelAntonio.jpg",
+    imagen: "./img/AcevedoManuelAntonio.jpg",
     youtube: "https://www.youtube.com/watch?v=6CB92kKNxuk&t=3s",
     wikipedia: "https://es.wikipedia.org/wiki/Manuel_Antonio_Acevedo  ",
   },
@@ -496,7 +496,7 @@ const datos = [
       "Educado en el Colegio Montserrat, Córdoba.",
     ],
     aficiones: "Defensor de las autonomías provinciales.",
-    imagen: "../img/SalguerodeCabreraJeronimo.jpg",
+    imagen: "./img/SalguerodeCabreraJeronimo.jpg",
     youtube: "https://www.youtube.com/watch?v=yUCULiVbBqs",
     wikipedia: "https://es.wikipedia.org/wiki/Jer%C3%B3nimo_Salguero",
   },
@@ -665,7 +665,7 @@ const datos = [
     ],
     aficiones:
       "Afín al partido unitario. Administrador de fincas, afinidad por la lectura filosófica y jurídica. Financió al ejercito argentino: contra las invasiones inglesas y a Güemes.  introdujo la vacunación antivariólica, fomentó la educación y la beneficencia, y legisló sobre el ejercicio de la medicina, la sepultura y nombramientos e incompatibilidades del Poder Judicial.",
-    imagen: "../img/GorritiJoseIgnaciode.jpg",
+    imagen: "./img/GorritiJoseIgnaciode.jpg",
     youtube: "https://www.youtube.com/watch?v=3ahcq7PlyO8",
     wikipedia: "https://es.wikipedia.org/wiki/Jos%C3%A9_Ignacio_de_Gorriti",
   },
@@ -860,7 +860,7 @@ const datos = [
     ],
     aficiones:
       "A favor de un gobierno de monarquia temperada, bajo la dinastía de los antiguos incas. Autor de un proyecto de formación del ejército.",
-    imagen: "../img/RiveraPedroIgnacio.jpg",
+    imagen: "./img/RiveraPedroIgnacio.jpg",
     youtube: "https://www.youtube.com/watch?v=BbyTSgM9zn8",
     wikipedia: "https://es.wikipedia.org/wiki/Pedro_Ignacio_Rivera",
   },
@@ -926,7 +926,7 @@ const datos = [
     ],
     aficiones:
       "Apoyó la Revolución de Chuquisaca del 25 de mayo de 1809.  Era de tendencia monárquica, y defendió su ideología con tenacidad, hasta casi lograr que se coronara un rey en la actual Argentina.",
-    imagen: "../img/MalabiaJoseSevero.jpg",
+    imagen: "./img/MalabiaJoseSevero.jpg",
     youtube: "https://www.youtube.com/watch?v=Bb4t9X5Vqyk",
     wikipedia: "https://es.wikipedia.org/wiki/Jos%C3%A9_Severo_Malabia",
   },
