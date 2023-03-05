@@ -368,7 +368,7 @@ const datos = [
     educacion: ["Ordenado Presbítero", "Colegio Montserrat, Córdoba."],
     aficiones:
       "A favor de la institución de la monarquía incaica. Propuso que el monarca de la incipiente Argentina fuese un descendiente de los incas, en la sesión del 12 de julio de 1816.",
-    imagen: "./img/AcevedoManuelAntonio.jpg",
+    imagen: "./img/acevedoManuelAntonio.jpg",
     youtube: "https://www.youtube.com/watch?v=6CB92kKNxuk&t=3s",
     wikipedia: "https://es.wikipedia.org/wiki/Manuel_Antonio_Acevedo  ",
   },
